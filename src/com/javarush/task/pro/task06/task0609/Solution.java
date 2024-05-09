@@ -6,7 +6,8 @@ package com.javarush.task.pro.task06.task0609;
 
 public class Solution {
     public static void main(String[] args) {
-
+        long q = 2L;
+        System.out.println(ninthDegree(q));
     }
 
     public static long cube(long a){
@@ -15,6 +16,8 @@ public class Solution {
     }
 
     public static long ninthDegree(long result){
+
+        result = cube(cube(result));
 return result;
     }
 
