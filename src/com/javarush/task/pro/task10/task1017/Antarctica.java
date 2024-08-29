@@ -5,5 +5,6 @@ public class Antarctica {
 
     public Antarctica(int area){
         this.area = area;
+
     }
 }

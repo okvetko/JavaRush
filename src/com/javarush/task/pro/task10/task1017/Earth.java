@@ -6,7 +6,7 @@ package com.javarush.task.pro.task10.task1017;
 
 public class Earth {
     public static void main(String[] args) {
-        Africa africa = new Africa(1000);
+        Africa africa = new Africa();
         Antarctica antarctica = new Antarctica(10);
         Australia australia = new Australia(500);
         Eurasia eurasia = new Eurasia(600);
